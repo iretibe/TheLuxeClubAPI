@@ -1,0 +1,9 @@
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.CoreFlogger\bin\Debug\netcoreapp3.1\TheLuxe.CoreFlogger.deps.json
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.CoreFlogger\bin\Debug\netcoreapp3.1\TheLuxe.CoreFlogger.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.CoreFlogger\bin\Debug\netcoreapp3.1\TheLuxe.CoreFlogger.pdb
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.CoreFlogger\obj\Debug\netcoreapp3.1\TheLuxe.CoreFlogger.AssemblyInfoInputs.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.CoreFlogger\obj\Debug\netcoreapp3.1\TheLuxe.CoreFlogger.AssemblyInfo.cs
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.CoreFlogger\obj\Debug\netcoreapp3.1\TheLuxe.CoreFlogger.csproj.CoreCompileInputs.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.CoreFlogger\obj\Debug\netcoreapp3.1\TheLuxe.CoreFlogger.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.CoreFlogger\obj\Debug\netcoreapp3.1\TheLuxe.CoreFlogger.pdb
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.CoreFlogger\obj\Debug\netcoreapp3.1\TheLuxe.CoreFlogger.csprojAssemblyReference.cache

@@ -1,0 +1,32 @@
+﻿[uspCheckIfProductExistsInOrder]
+[uspCheckProductBarCode]
+[uspCheckProductInOrder]
+[uspCheckProductWithNoStockRecipeStockLevel]
+[uspCheckIfIsOwner]
+[uspCheckIfItIsCreditCustomer]
+[uspCheckIfProtocolSetupIsApplied]
+[uspCheckIfShiftHasBeenEnded]
+
+
+
+--Select * From tblDefaultProductPicture
+--Select * From tblMostSoldProduct
+Select * From tblProduct
+Select * From tblProductCategory
+Select * From tblProductCategory_Temp
+Select * From tblProductCategoryDetail
+Select * From tblProductCategoryLocation
+Select * From tblProductDamage
+Select * From tblProductOrder
+Select * From tblProductOrderStatus
+Select * From tblProductPortion
+Select * From tblProductPrice
+Select * From tblProductProtocol
+Select * From tblProductPurchase
+Select * From tblProductRecipe
+Select * From tblProductRecipeSelector
+Select * From tblProductReportByShift
+Select * From tblProductStock
+Select * From tblProductTransfer
+Select * From tblShiftProductStockTaking
+Select * From tblSupplierProduct

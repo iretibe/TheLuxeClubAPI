@@ -1,0 +1,14 @@
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\bin\Debug\netcoreapp3.1\TheLuxe.RepositoryInterface.deps.json
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\bin\Debug\netcoreapp3.1\TheLuxe.RepositoryInterface.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\bin\Debug\netcoreapp3.1\TheLuxe.RepositoryInterface.pdb
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\obj\Debug\netcoreapp3.1\TheLuxe.RepositoryInterface.csprojAssemblyReference.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\obj\Debug\netcoreapp3.1\TheLuxe.RepositoryInterface.AssemblyInfoInputs.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\obj\Debug\netcoreapp3.1\TheLuxe.RepositoryInterface.AssemblyInfo.cs
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\obj\Debug\netcoreapp3.1\TheLuxe.RepositoryInterface.csproj.CoreCompileInputs.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\obj\Debug\netcoreapp3.1\TheLuxe.RepositoryInterface.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\obj\Debug\netcoreapp3.1\TheLuxe.RepositoryInterface.pdb
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\bin\Debug\netcoreapp3.1\TheLuxe.Model.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\bin\Debug\netcoreapp3.1\TheLuxe.Model.pdb
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\obj\Debug\netcoreapp3.1\TheLuxe.RepositoryInterface.csproj.CopyComplete
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\bin\Debug\netcoreapp3.1\TheLuxe.Entity.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.RepositoryInterface\bin\Debug\netcoreapp3.1\TheLuxe.Entity.pdb

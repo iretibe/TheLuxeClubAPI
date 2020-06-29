@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.theluxe.mobile">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+    <!--<application android:label="TheLuxe.Mobile.Android"></application>-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application android:label="TheLuxe.Mobile.Android" android:usesCleartextTraffic="true">
+      <uses-library 
+        android:name="org.apache.http.legacy"
+        android:required="false">      
+      </uses-library>
+    </application>
+</manifest>

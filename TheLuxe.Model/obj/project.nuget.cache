@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "cFpg4KBoIJ02/yvdY8sqT+xii+Lkw9wVFLWLUegUezie4mh3Ll5Z32IVdxn2qCbhbTBYJuXar77lPg4ZrOlGKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Model\\TheLuxe.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.5\\microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.5\\microsoft.aspnetcore.cryptography.keyderivation.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.5\\microsoft.extensions.caching.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.5\\microsoft.extensions.configuration.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.5\\microsoft.extensions.configuration.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.5\\microsoft.extensions.configuration.binder.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.5\\microsoft.extensions.dependencyinjection.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.identity.core\\3.1.5\\microsoft.extensions.identity.core.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.5\\microsoft.extensions.identity.stores.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.logging\\3.1.5\\microsoft.extensions.logging.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,763 @@
+﻿{
+   "ContextClassName": "TheLuxeClubContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProjectRootNamespace": "TheLuxe.Data",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblAccount]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblAccountGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblAccountType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblAction]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblAllStockValue]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblAllStockValueTemp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblBadDebt]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblBank]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblBankAccount]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblBankBranch]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblBankStatement]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblBankStatementTemp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblBankTransaction]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblBankTransactionType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblBankTransfer]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCashReport]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCashWithdrawal]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCategoryGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblChef]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCity]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCompanyLocation]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCompanyProfile]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblComputerLocation]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCountry]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCreditSalePayment]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCurrency]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCurrencyRate]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCustomer]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCustomerAccount]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCustomerContactPerson]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCustomerStatement]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCustomerStatementTemp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblCustomerType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblDailyStockLevel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblDefaultProductPicture]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblEmployee]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblEndOfShift]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblErrorLog]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblExpenditureType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblExpenditureTypeGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblExpense]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblExpenseDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblExpenseType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblExpenseTypeGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblFeature]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblGender]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblGuaranty]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblLocation]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblMailDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblMailToSend]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblModule]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblMonthlyOrderSummaryReport]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblMonthlySaleReportByQty]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblMonthlySaleReportByValue]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblMostSoldProduct]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOA]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOAFK]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOption]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOptionGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOrder]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOrderActivity]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOrderConfirmation]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOrderDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOrderDetailOption]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOrderDetailRecipe]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOrderDetailTemp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOrderStatus]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOrderTemp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblOrderType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblPackage]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblPaymentMode]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblPeriod]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblPosition]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblPrinterSetting]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProduct]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductCategory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductCategory_Temp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductCategoryDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductCategoryLocation]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductDamage]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductOrder]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductOrderByStatus]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductPortion]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductPrice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductProtocol]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductPurchase]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductRecipe]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductRecipeSelector]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductReportByShift]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductStock]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProductTransfer]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProfitAndLoss]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProfitLossTemp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProfitOnSale]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProtocolSetup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblProtocolType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblReason]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblSelectEndOfShift]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblShift]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblShiftDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblShiftProductStockTaking]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblShiftReport]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblShiftReportByCategoryGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblShiftReportByCategoryGroupTemp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblShiftReportDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblShiftReportTemp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStatus]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStock]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockControl]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockControlTemp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockDamage]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockDamageDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockLevel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockPurchase]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockPurchaseDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockPurchasePayment]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockPurchaseReturn]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockTransfer]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockTransferDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockValue]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblStockVariance]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblSupplier]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblSupplierAccount]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblSupplierContactPerson]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblSupplierProduct]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblSupplierStatement]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblSupplierStatementTemp]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblTable]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblTableGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblTaxDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblTitle]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblTransactionType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblUser]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblUserAction]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblUserActivity]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblUserFeature]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblUserModule]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblUserTable]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblUserType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblWaiter]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblWaiterAccount]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblWaiterPayment]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[tblWaiterSalaryHistory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwBankAccount]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwBankStatement]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwBankTransaction]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwCashWithdrawal]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwCompanyProfile]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwCreditSalePayment]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwCustomerContactPerson]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwCustomerStatement]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwExpense]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwExpenseDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwExpenseType]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwLocation]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwOption]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwOrder]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwOrderActivity]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwOrderActivityFromOA]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwOrderDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwPrinterSetting]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwProduct]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwProductCategoryDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwProductPrice]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwProductRecipe]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwProductRecipeSelector]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwProductStock]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwShift]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwShiftProductStockTaking]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwStockControl]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwStockDamage]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwStockDamageDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwStockLevel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwStockPurchase]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwStockPurchaseDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwStockPurchasePayment]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwStockTransfer]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwStockTransferDetail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwStockVariance]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwSupplier]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwSupplierContactPerson]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwSupplierProduct]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwSupplierStatement]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwUserActivity]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[vwWaiterPayment]"
+      }
+   ],
+   "UseDatabaseNames": true,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": true,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseSpatial": false
+}

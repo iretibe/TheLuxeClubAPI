@@ -1,0 +1,9 @@
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Helper\bin\Debug\netcoreapp3.1\TheLuxe.Helper.deps.json
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Helper\bin\Debug\netcoreapp3.1\TheLuxe.Helper.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Helper\bin\Debug\netcoreapp3.1\TheLuxe.Helper.pdb
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Helper\obj\Debug\netcoreapp3.1\TheLuxe.Helper.csprojAssemblyReference.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Helper\obj\Debug\netcoreapp3.1\TheLuxe.Helper.AssemblyInfoInputs.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Helper\obj\Debug\netcoreapp3.1\TheLuxe.Helper.AssemblyInfo.cs
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Helper\obj\Debug\netcoreapp3.1\TheLuxe.Helper.csproj.CoreCompileInputs.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Helper\obj\Debug\netcoreapp3.1\TheLuxe.Helper.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Helper\obj\Debug\netcoreapp3.1\TheLuxe.Helper.pdb

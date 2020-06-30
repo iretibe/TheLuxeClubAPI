@@ -7,7 +7,7 @@ namespace TheLuxe.RepositoryInterface
 {
     public interface ICategoryRepo
     {
-        Task DeleteProductCategoryAsync(tblProductCategory entity);        
+        Task DeleteProductCategoryAsync(tblProductCategory entity);
         Task AddProductCategoryAsync(string CategoryName, int CategoryGroupID, bool SelectOption);   
         Task<IEnumerable<uspMobileSelectProductCategory>> GetMobileProductCategoryAsync();
         Task<IEnumerable<uspSelectCategory>> GetCategoryAsync(int? ProductCategoryID, string CategoryName, 

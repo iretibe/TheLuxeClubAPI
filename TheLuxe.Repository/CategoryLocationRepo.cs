@@ -4,10 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
+using System.Linq;
 using System.Threading.Tasks;
 using TheLuxe.Data;
+using TheLuxe.Entity;
 using TheLuxe.Helper;
-using TheLuxe.Model;
+using TheLuxe.Model.ProductCategoryLocation;
 using TheLuxe.RepositoryInterface;
 
 namespace TheLuxe.Repository
@@ -50,14 +52,19 @@ namespace TheLuxe.Repository
             }
         }
 
-        public async Task DeleteProductCategoryLocationAsync(int ProductCategoryLocationID)
+        public void Commit()
+        {
+            _context.SaveChanges();
+        }
+
+        public async Task DeleteProductCategoryLocationAsync(tblProductCategoryLocation entity)
         {
             _context.Database.OpenConnection();
             using (DbCommand cmdObj = _context.Database.GetDbConnection().CreateCommand())
             {
                 cmdObj.CommandText = "uspDeleteProductCategoryLocation";
                 cmdObj.CommandType = CommandType.StoredProcedure;
-                cmdObj.Parameters.Add(new SqlParameter("@ProductCategoryLocationID", ProductCategoryLocationID));
+                cmdObj.Parameters.Add(new SqlParameter("@ProductCategoryLocationID", entity.ProductCategoryLocationID));
 
                 await cmdObj.ExecuteScalarAsync();
             }
@@ -80,6 +87,11 @@ namespace TheLuxe.Repository
             return lst;
         }
 
+        public tblProductCategoryLocation GetProductCategoryLocation(int ProductCategoryLocationId)
+        {
+            return _context.tblProductCategoryLocation.FirstOrDefault(c => c.ProductCategoryLocationID == ProductCategoryLocationId);
+        }
+
         public async Task<IEnumerable<uspSelectProductCategoryLocation>> GetProductCategoryLocationAsync()
         {
             List<uspSelectProductCategoryLocation> lst;
@@ -95,6 +107,11 @@ namespace TheLuxe.Repository
                 }
             }
             return lst;
+        }
+
+        public bool Save()
+        {
+            return (_context.SaveChanges() >= 0);
         }
 
         public async Task UpdateProductCategoryLocationAsync(int ProductCategoryLocationID, string ProductCategoryLocationName, string PrinterName)

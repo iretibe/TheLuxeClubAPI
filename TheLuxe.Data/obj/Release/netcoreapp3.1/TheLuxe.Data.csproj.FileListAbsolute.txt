@@ -1,0 +1,14 @@
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\bin\Release\netcoreapp3.1\TheLuxe.Data.deps.json
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\bin\Release\netcoreapp3.1\TheLuxe.Data.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\bin\Release\netcoreapp3.1\TheLuxe.Data.pdb
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\bin\Release\netcoreapp3.1\TheLuxe.Entity.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\bin\Release\netcoreapp3.1\TheLuxe.Model.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\bin\Release\netcoreapp3.1\TheLuxe.Entity.pdb
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\bin\Release\netcoreapp3.1\TheLuxe.Model.pdb
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\obj\Release\netcoreapp3.1\TheLuxe.Data.csprojAssemblyReference.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\obj\Release\netcoreapp3.1\TheLuxe.Data.AssemblyInfoInputs.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\obj\Release\netcoreapp3.1\TheLuxe.Data.AssemblyInfo.cs
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\obj\Release\netcoreapp3.1\TheLuxe.Data.csproj.CoreCompileInputs.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\obj\Release\netcoreapp3.1\TheLuxe.Data.csproj.CopyComplete
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\obj\Release\netcoreapp3.1\TheLuxe.Data.dll
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Data\obj\Release\netcoreapp3.1\TheLuxe.Data.pdb

@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TheLuxe.Data;
-using TheLuxe.Entity;
 using TheLuxe.Model;
 using TheLuxe.Repository;
 using TheLuxe.RepositoryInterface;
@@ -30,6 +29,16 @@ namespace TheLuxe.API.Installers
             services.AddScoped<IProductPriceRepo, ProductPriceRepo>();
             services.AddScoped<ICategoryDetailRepo, CategoryDetailRepo>();
             services.AddScoped<ICategoryGroupRepo, CategoryGroupRepo>();
+            services.AddScoped<ICategoryLocationRepo, CategoryLocationRepo>();
+            services.AddScoped<IProductRepo, ProductRepo>();
+            services.AddScoped<IProductRecipeRepo, ProductRecipeRepo>();
+            services.AddScoped<ISupplierProductRepo, SupplierProductRepo>();
+            services.AddScoped<ICustomerRepo, CustomerRepo>();
+            services.AddScoped<ICustomerContactPersonRepo, CustomerContactPersonRepo>();
+            services.AddScoped<ICustomerTypeRepo, CustomerTypeRepo>();
+            services.AddScoped<IOrderRepo, OrderRepo>();
+            services.AddScoped<ICustomerStatementRepo, CustomerStatementRepo>();
+            services.AddScoped<ICustomerAccountRepo, CustomerAccountRepo>();
         }
     }
 }

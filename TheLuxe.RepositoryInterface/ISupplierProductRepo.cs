@@ -1,5 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using TheLuxe.Entity;
+using TheLuxe.Model.SupplierProduct;
 
 namespace TheLuxe.RepositoryInterface
 {
@@ -10,5 +12,7 @@ namespace TheLuxe.RepositoryInterface
         tblSupplierProduct GetSupplierProduct(int SupplierProductId);
         bool Save();
         void Commit();
+        Task AddSupplierProductAsync(int ProductID, int SupplierID);
+        Task<IEnumerable<uspSelectSupplierProduct>> GetSupplierProductAsync(int SupplierID);
     }
 }

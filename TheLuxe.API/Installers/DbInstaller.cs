@@ -39,6 +39,10 @@ namespace TheLuxe.API.Installers
             services.AddScoped<IOrderRepo, OrderRepo>();
             services.AddScoped<ICustomerStatementRepo, CustomerStatementRepo>();
             services.AddScoped<ICustomerAccountRepo, CustomerAccountRepo>();
+            services.AddScoped<ISupplierRepo, SupplierRepo>();
+            services.AddScoped<ISupplierContactPersonRepo, SupplierContactPersonRepo>();
+            services.AddScoped<ISupplierStatementRepo, SupplierStatementRepo>();
+            services.AddScoped<ISupplierAccountRepo, SupplierAccountRepo>();
         }
     }
 }

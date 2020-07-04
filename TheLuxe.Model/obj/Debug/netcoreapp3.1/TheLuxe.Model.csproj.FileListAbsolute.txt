@@ -5,5 +5,5 @@ C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Model\obj\Debug\netcoreapp3.1\TheLux
 C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Model\obj\Debug\netcoreapp3.1\TheLuxe.Model.AssemblyInfo.cs
 C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Model\obj\Debug\netcoreapp3.1\TheLuxe.Model.dll
 C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Model\obj\Debug\netcoreapp3.1\TheLuxe.Model.pdb
-C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Model\obj\Debug\netcoreapp3.1\TheLuxe.Model.csprojAssemblyReference.cache
 C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Model\obj\Debug\netcoreapp3.1\TheLuxe.Model.csproj.CoreCompileInputs.cache
+C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Model\obj\Debug\netcoreapp3.1\TheLuxe.Model.csprojAssemblyReference.cache

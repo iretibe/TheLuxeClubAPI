@@ -1,6 +1,5 @@
 C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Entity\bin\Debug\netcoreapp3.1\TheLuxe.Entity.deps.json
 C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Entity\bin\Debug\netcoreapp3.1\TheLuxe.Entity.dll
-C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Entity\obj\Debug\netcoreapp3.1\TheLuxe.Entity.csprojAssemblyReference.cache
 C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Entity\obj\Debug\netcoreapp3.1\TheLuxe.Entity.AssemblyInfoInputs.cache
 C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Entity\obj\Debug\netcoreapp3.1\TheLuxe.Entity.AssemblyInfo.cs
 C:\Users\Somad\source\repos\TheLuxe\TheLuxe.Entity\bin\Debug\netcoreapp3.1\TheLuxe.Entity.pdb

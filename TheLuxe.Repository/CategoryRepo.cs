@@ -119,7 +119,8 @@ namespace TheLuxe.Repository
             return lst;
         }
 
-        public async Task<IEnumerable<uspSelectProductCategoryForMenu>> GetProductCategoryForMenuAsync(int ProductCategoryID, int CategoryGroupID, int CompanyLocationID)
+        public async Task<IEnumerable<uspSelectProductCategoryForMenu>> GetProductCategoryForMenuAsync(int ProductCategoryID, 
+            int CategoryGroupID, int CompanyLocationID)
         {
             List<uspSelectProductCategoryForMenu> lst;
             _context.Database.OpenConnection();

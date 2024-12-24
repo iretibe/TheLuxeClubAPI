@@ -1,0 +1,13 @@
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\bin\Debug\net6.0\TheLuxe.Model.deps.json
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\bin\Debug\net6.0\TheLuxe.Model.dll
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\bin\Debug\net6.0\TheLuxe.Model.pdb
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\obj\Debug\net6.0\TheLuxe.Model.csproj.AssemblyReference.cache
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\obj\Debug\net6.0\TheLuxe.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\obj\Debug\net6.0\TheLuxe.Model.AssemblyInfoInputs.cache
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\obj\Debug\net6.0\TheLuxe.Model.AssemblyInfo.cs
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\obj\Debug\net6.0\TheLuxe.Model.csproj.CoreCompileInputs.cache
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\obj\Debug\net6.0\TheLuxe.Model.sourcelink.json
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\obj\Debug\net6.0\TheLuxe.Model.dll
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\obj\Debug\net6.0\refint\TheLuxe.Model.dll
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\obj\Debug\net6.0\TheLuxe.Model.pdb
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Model\obj\Debug\net6.0\ref\TheLuxe.Model.dll

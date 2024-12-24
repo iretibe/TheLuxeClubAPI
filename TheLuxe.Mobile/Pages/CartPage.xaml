@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TheLuxe.Mobile.Pages.CartPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="7.7*" />
+                    <ColumnDefinition Width="1.3*" />
+                </Grid.ColumnDefinitions>
+
+                <Image
+                    Grid.Column="0"
+                    HorizontalOptions="Center"
+                    Source="backarrow.png">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="TapBack" Tapped="TapBack_Tapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Label
+                    Grid.Column="1"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    HorizontalTextAlignment="Center"
+                    Text="Your Cart"
+                    TextColor="#CE0B06" />
+
+                <Label
+                    Grid.Column="2"
+                    CharacterSpacing="1"
+                    FontAttributes="Bold"
+                    FontSize="15"
+                    HorizontalTextAlignment="Center"
+                    Text="Clear"
+                    TextColor="#CE0B06"
+                    VerticalTextAlignment="End">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="TapClearCart" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+
+            <ListView
+                x:Name="LvShoppingCart"
+                CachingStrategy="RecycleElement"
+                HasUnevenRows="True"
+                SelectionMode="None"
+                SeparatorColor="#80574D">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="20,10,20,10">
+                                <Label
+                                    FontSize="Medium"
+                                    Text="{Binding productName}"
+                                    TextColor="#B00905" />
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label
+                                        CharacterSpacing="1"
+                                        FontSize="Medium"
+                                        Text="{Binding qty}"
+                                        TextColor="#80574D" />
+
+                                    <Label
+                                        FontSize="Medium"
+                                        Text="X"
+                                        TextColor="#80574D" />
+
+                                    <Label
+                                        CharacterSpacing="1"
+                                        FontSize="Medium"
+                                        Text="{Binding price}"
+                                        TextColor="#80574D" />
+
+                                    <Label
+                                        CharacterSpacing="1"
+                                        FontSize="Medium"
+                                        HorizontalOptions="EndAndExpand"
+                                        Text="{Binding totalAmount, StringFormat='{0}$'}"
+                                        TextColor="#80574D" />
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <StackLayout Margin="30,0,0,10" HorizontalOptions="FillAndExpand">
+                    <Label
+                        FontSize="Medium"
+                        Text="Total Price"
+                        TextColor="#B00905" />
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label
+                            x:Name="LblTotalPrice"
+                            FontSize="Medium"
+                            TextColor="#80574D" />
+                        <Label
+                            FontSize="Medium"
+                            Text="$"
+                            TextColor="#80574D" />
+                    </StackLayout>
+                </StackLayout>
+
+                <Button
+                    x:Name="BtnProceed"
+                    BackgroundColor="#CE0B06"
+                    HorizontalOptions="FillAndExpand"
+                    Text="Proceed"
+                    TextColor="White" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TheLuxe.Mobile.Pages.LoginPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#F7F5F4"
+    NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Content>
+        <StackLayout Margin="25" Spacing="20">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="8*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Image
+                    HeightRequest="25"
+                    HorizontalOptions="Center"
+                    Source="backarrow.png"
+                    VerticalOptions="Center">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="TapBackArrow" Tapped="TapBackArrow_Tapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label
+                    Grid.Column="1"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    Text="LOGIN"
+                    TextColor="#CE0B06"
+                    VerticalOptions="Center" />
+            </Grid>
+            <Frame
+                Margin="0,80,0,50"
+                Padding="25"
+                HasShadow="True">
+                <StackLayout Margin="0,60,0,60">
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="Title"
+                        HorizontalTextAlignment="Center"
+                        Text="Sign In"
+                        TextColor="#CE0B06" />
+                    <Entry
+                        x:Name="EntEmail"
+                        Keyboard="Email"
+                        Placeholder="Email"
+                        PlaceholderColor="#80574D"
+                        TextColor="#80574D" />
+                    <Entry
+                        x:Name="EntPassword"
+                        IsPassword="True"
+                        Keyboard="Default"
+                        Placeholder="Password"
+                        PlaceholderColor="#80574D"
+                        TextColor="#80574D" />
+                </StackLayout>
+            </Frame>
+            <Button
+                x:Name="BtnLogin"
+                BackgroundColor="#CE0B06"
+                Clicked="BtnLogin_Clicked"
+                Text="Login"
+                TextColor="White" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

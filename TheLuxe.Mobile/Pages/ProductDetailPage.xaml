@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TheLuxe.Mobile.Pages.ProductDetailPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Image
+                        x:Name="ImgProduct"
+                        Aspect="Fill"
+                        HeightRequest="300" />
+
+                    <Image
+                        Margin="10,20,20,20"
+                        HeightRequest="40"
+                        HorizontalOptions="Start"
+                        Source="close"
+                        VerticalOptions="Start"
+                        WidthRequest="40">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="TapBack" Tapped="TapBack_Tapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Grid>
+
+                <StackLayout Margin="20">
+                    <StackLayout Orientation="Horizontal">
+                        <Label
+                            x:Name="LblName"
+                            FontSize="Large"
+                            HorizontalOptions="Start"
+                            TextColor="#80574D" />
+
+                        <StackLayout HorizontalOptions="EndAndExpand" Orientation="Horizontal">
+                            <Label
+                                x:Name="LblPrice"
+                                FontSize="Large"
+                                TextColor="#80574D" />
+                            <Label
+                                FontSize="Large"
+                                Text="$"
+                                TextColor="#80574D" />
+                        </StackLayout>
+                    </StackLayout>
+
+                    <Label
+                        Margin="0,10,0,0"
+                        FontSize="Large"
+                        Text="Product Detail"
+                        TextColor="#B00905" />
+
+                    <Label
+                        x:Name="LblDetail"
+                        FontSize="Body"
+                        TextColor="#80574D" />
+                </StackLayout>
+
+                <StackLayout
+                    Margin="0,0,0,40"
+                    HorizontalOptions="CenterAndExpand"
+                    Orientation="Horizontal"
+                    Spacing="20"
+                    VerticalOptions="EndAndExpand">
+                    <Image HeightRequest="40" Source="minus.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="TapDecrement" Tapped="TapDecrement_Tapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Label
+                        x:Name="LblQty"
+                        FontSize="Large"
+                        Text="1"
+                        TextColor="#80574D"
+                        VerticalTextAlignment="Center" />
+
+                    <Image HeightRequest="40" Source="plus.png">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="TapIncrement" Tapped="TapIncrement_Tapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Margin="30,0,0,10" HorizontalOptions="FillAndExpand">
+                        <Label
+                            FontSize="Medium"
+                            Text="Total Price"
+                            TextColor="#B00905" />
+                        <StackLayout Orientation="Horizontal">
+                            <Label
+                                x:Name="LblTotalPrice"
+                                FontSize="Medium"
+                                TextColor="#80574D" />
+                            <Label
+                                FontSize="Medium"
+                                Text="$"
+                                TextColor="#80574D" />
+                        </StackLayout>
+                    </StackLayout>
+
+                    <Button
+                        x:Name="BtnAddToCart"
+                        BackgroundColor="#CE0B06"
+                        Clicked="BtnAddToCart_Clicked"
+                        HorizontalOptions="FillAndExpand"
+                        Text="Add To Cart"
+                        TextColor="White" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

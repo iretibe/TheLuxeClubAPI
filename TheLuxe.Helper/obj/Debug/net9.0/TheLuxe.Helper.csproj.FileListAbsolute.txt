@@ -1,0 +1,12 @@
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\bin\Debug\net9.0\TheLuxe.Helper.deps.json
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\bin\Debug\net9.0\TheLuxe.Helper.dll
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\bin\Debug\net9.0\TheLuxe.Helper.pdb
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\obj\Debug\net9.0\TheLuxe.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\obj\Debug\net9.0\TheLuxe.Helper.AssemblyInfoInputs.cache
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\obj\Debug\net9.0\TheLuxe.Helper.AssemblyInfo.cs
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\obj\Debug\net9.0\TheLuxe.Helper.csproj.CoreCompileInputs.cache
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\obj\Debug\net9.0\TheLuxe.Helper.sourcelink.json
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\obj\Debug\net9.0\TheLuxe.Helper.dll
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\obj\Debug\net9.0\refint\TheLuxe.Helper.dll
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\obj\Debug\net9.0\TheLuxe.Helper.pdb
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.Helper\obj\Debug\net9.0\ref\TheLuxe.Helper.dll

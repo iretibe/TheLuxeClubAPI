@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TheLuxe.Mobile.Pages.SignupPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#F7F5F4"
+    NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="25" Spacing="20">
+                <Label
+                    Margin="30,0,30,0"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    HorizontalTextAlignment="Center"
+                    Text="SIGN UP"
+                    TextColor="#CE0B06" />
+
+                <Frame
+                    Margin="0,30,0,0"
+                    Padding="25"
+                    HasShadow="True">
+                    <StackLayout>
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="Title"
+                            HorizontalOptions="Center"
+                            Text="Create An Account"
+                            TextColor="#CE0B06" />
+                        <Entry
+                            x:Name="EntName"
+                            Keyboard="Text"
+                            Placeholder="Full Name"
+                            PlaceholderColor="#80574D"
+                            TextColor="#80574D" />
+                        <Entry
+                            x:Name="EntEmail"
+                            Keyboard="Email"
+                            Placeholder="Email"
+                            PlaceholderColor="#80574D"
+                            TextColor="#80574D" />
+                        <Entry
+                            x:Name="EntPassword"
+                            IsPassword="True"
+                            Keyboard="Default"
+                            Placeholder="Password"
+                            PlaceholderColor="#80574D"
+                            TextColor="#80574D" />
+                        <Entry
+                            x:Name="EntConfirmPassword"
+                            IsPassword="True"
+                            Keyboard="Default"
+                            Placeholder="Confirm Password"
+                            PlaceholderColor="#80574D"
+                            TextColor="#80574D" />
+                        <Label
+                            Margin="20,0,20,0"
+                            FontSize="Small"
+                            HorizontalTextAlignment="Center"
+                            Text="By creating an account you agree to our Terms of Service and Privacy Policy"
+                            TextColor="#80574D" />
+                    </StackLayout>
+                </Frame>
+
+                <Button
+                    x:Name="BtnSignUp"
+                    BackgroundColor="#CE0B06"
+                    Clicked="BtnSignUp_Clicked"
+                    Text="CONTINUE"
+                    TextColor="White" />
+                <Label
+                    HorizontalTextAlignment="Center"
+                    Text="Already have an account?"
+                    TextColor="#80574D" />
+                <Button
+                    x:Name="BtnLogin"
+                    BackgroundColor="#CE0B06"
+                    Clicked="BtnLogin_Clicked"
+                    Text="Login"
+                    TextColor="White" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

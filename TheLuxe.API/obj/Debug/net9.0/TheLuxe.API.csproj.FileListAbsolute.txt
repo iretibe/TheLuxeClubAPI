@@ -1,0 +1,8 @@
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.API\obj\Debug\net9.0\TheLuxe.API.csproj.AssemblyReference.cache
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.API\obj\Debug\net9.0\TheLuxe.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.API\obj\Debug\net9.0\TheLuxe.API.AssemblyInfoInputs.cache
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.API\obj\Debug\net9.0\TheLuxe.API.AssemblyInfo.cs
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.API\obj\Debug\net9.0\TheLuxe.API.csproj.CoreCompileInputs.cache
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.API\obj\Debug\net9.0\TheLuxe.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.API\obj\Debug\net9.0\TheLuxe.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Somad\source\repos\TheLuxeClubAPI\TheLuxe.API\obj\Debug\net9.0\TheLuxe.API.sourcelink.json

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TheLuxe.Mobile.Pages.ProductListPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="8*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+                <Image
+                    Grid.Column="0"
+                    HorizontalOptions="Center"
+                    Source="backarrow.png">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="TapBack" Tapped="TapBack_Tapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Label
+                    x:Name="LblCategoryName"
+                    Grid.Column="1"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    HorizontalTextAlignment="Center"
+                    TextColor="#CE0B06" />
+            </Grid>
+            <CollectionView
+                x:Name="CvProducts"
+                SelectionChanged="CvProducts_SelectionChanged"
+                SelectionMode="Single">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout
+                            Margin="15,0,15,0"
+                            Padding="10"
+                            Orientation="Vertical"
+                            Spacing="5">
+                            <Image
+                                Aspect="Fill"
+                                BackgroundColor="White"
+                                HeightRequest="150"
+                                Source="{Binding FullImageUrl}"
+                                WidthRequest="150" />
+                            <Label Text="{Binding name}" TextColor="#000000" />
+                            <Label Text="{Binding price, StringFormat='${0}'}" TextColor="#B00905" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

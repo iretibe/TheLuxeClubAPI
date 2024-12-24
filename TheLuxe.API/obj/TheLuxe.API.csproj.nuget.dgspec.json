@@ -1,44 +1,46 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.API\\TheLuxe.API.csproj": {}
+    "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.API\\TheLuxe.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.API\\TheLuxe.API.csproj": {
+    "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.API\\TheLuxe.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.API\\TheLuxe.API.csproj",
+        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.API\\TheLuxe.API.csproj",
         "projectName": "TheLuxe.API",
-        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.API\\TheLuxe.API.csproj",
+        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.API\\TheLuxe.API.csproj",
         "packagesPath": "C:\\Users\\Somad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.API\\obj\\",
+        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Somad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Data\\TheLuxe.Data.csproj": {
-                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Data\\TheLuxe.Data.csproj"
+              "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Data\\TheLuxe.Data.csproj": {
+                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Data\\TheLuxe.Data.csproj"
               },
-              "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj": {
-                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj"
+              "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj": {
+                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj"
               },
-              "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Repository\\TheLuxe.Repository.csproj": {
-                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Repository\\TheLuxe.Repository.csproj"
+              "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Repository\\TheLuxe.Repository.csproj": {
+                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Repository\\TheLuxe.Repository.csproj"
               }
             }
           }
@@ -47,50 +49,57 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[13.0.1, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[12.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.5.1, )"
+              "version": "[7.2.0, )"
             },
             "System.Collections": {
               "target": "Package",
@@ -98,7 +107,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.7.0, )"
+              "version": "[8.3.0, )"
             }
           },
           "imports": [
@@ -107,7 +116,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -119,42 +129,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Data\\TheLuxe.Data.csproj": {
+    "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Data\\TheLuxe.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Data\\TheLuxe.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Data\\TheLuxe.Data.csproj",
         "projectName": "TheLuxe.Data",
-        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Data\\TheLuxe.Data.csproj",
+        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Data\\TheLuxe.Data.csproj",
         "packagesPath": "C:\\Users\\Somad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Data\\obj\\",
+        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Somad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Entity\\TheLuxe.Entity.csproj": {
-                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Entity\\TheLuxe.Entity.csproj"
+              "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Entity\\TheLuxe.Entity.csproj": {
+                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Entity\\TheLuxe.Entity.csproj"
               },
-              "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Model\\TheLuxe.Model.csproj": {
-                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Model\\TheLuxe.Model.csproj"
+              "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Model\\TheLuxe.Model.csproj": {
+                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Model\\TheLuxe.Model.csproj"
               }
             }
           }
@@ -163,18 +175,25 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -183,7 +202,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -192,36 +212,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Entity\\TheLuxe.Entity.csproj": {
+    "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Entity\\TheLuxe.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Entity\\TheLuxe.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Entity\\TheLuxe.Entity.csproj",
         "projectName": "TheLuxe.Entity",
-        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Entity\\TheLuxe.Entity.csproj",
+        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Entity\\TheLuxe.Entity.csproj",
         "packagesPath": "C:\\Users\\Somad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Entity\\obj\\",
+        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Somad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -229,14 +251,21 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -245,7 +274,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -254,36 +284,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Helper\\TheLuxe.Helper.csproj": {
+    "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Helper\\TheLuxe.Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Helper\\TheLuxe.Helper.csproj",
+        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Helper\\TheLuxe.Helper.csproj",
         "projectName": "TheLuxe.Helper",
-        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Helper\\TheLuxe.Helper.csproj",
+        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Helper\\TheLuxe.Helper.csproj",
         "packagesPath": "C:\\Users\\Somad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Helper\\obj\\",
+        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Helper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Somad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -291,17 +323,25 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -310,36 +350,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Model\\TheLuxe.Model.csproj": {
+    "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Model\\TheLuxe.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Model\\TheLuxe.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Model\\TheLuxe.Model.csproj",
         "projectName": "TheLuxe.Model",
-        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Model\\TheLuxe.Model.csproj",
+        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Model\\TheLuxe.Model.csproj",
         "packagesPath": "C:\\Users\\Somad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Model\\obj\\",
+        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Somad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -347,14 +389,21 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -363,7 +412,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -372,42 +422,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj": {
+    "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj",
+        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj",
         "projectName": "TheLuxe.RepositoryInterface",
-        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj",
+        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj",
         "packagesPath": "C:\\Users\\Somad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.RepositoryInterface\\obj\\",
+        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.RepositoryInterface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Somad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Entity\\TheLuxe.Entity.csproj": {
-                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Entity\\TheLuxe.Entity.csproj"
+              "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Entity\\TheLuxe.Entity.csproj": {
+                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Entity\\TheLuxe.Entity.csproj"
               },
-              "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Model\\TheLuxe.Model.csproj": {
-                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Model\\TheLuxe.Model.csproj"
+              "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Model\\TheLuxe.Model.csproj": {
+                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Model\\TheLuxe.Model.csproj"
               }
             }
           }
@@ -416,17 +468,25 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -435,45 +495,47 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Repository\\TheLuxe.Repository.csproj": {
+    "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Repository\\TheLuxe.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Repository\\TheLuxe.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Repository\\TheLuxe.Repository.csproj",
         "projectName": "TheLuxe.Repository",
-        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Repository\\TheLuxe.Repository.csproj",
+        "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Repository\\TheLuxe.Repository.csproj",
         "packagesPath": "C:\\Users\\Somad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Somad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Data\\TheLuxe.Data.csproj": {
-                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Data\\TheLuxe.Data.csproj"
+              "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Data\\TheLuxe.Data.csproj": {
+                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Data\\TheLuxe.Data.csproj"
               },
-              "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Helper\\TheLuxe.Helper.csproj": {
-                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.Helper\\TheLuxe.Helper.csproj"
+              "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Helper\\TheLuxe.Helper.csproj": {
+                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.Helper\\TheLuxe.Helper.csproj"
               },
-              "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj": {
-                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxe\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj"
+              "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj": {
+                "projectPath": "C:\\Users\\Somad\\source\\repos\\TheLuxeClubAPI\\TheLuxe.RepositoryInterface\\TheLuxe.RepositoryInterface.csproj"
               }
             }
           }
@@ -482,18 +544,25 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[9.0.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.7.0, )"
+              "version": "[8.3.0, )"
             }
           },
           "imports": [
@@ -502,7 +571,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -511,7 +581,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
